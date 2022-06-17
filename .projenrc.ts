@@ -8,5 +8,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
   projenrcTs: true,
   release: false,
   repositoryUrl: 'https://github.com/a-bigelow/single-delivery-event.git',
+  gitignore: ['.idea'],
 });
 project.synth();
