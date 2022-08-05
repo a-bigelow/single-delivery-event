@@ -7,7 +7,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: 'single-delivery-event',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/a-bigelow/single-delivery-event.git',
-
+  depsUpgrade: false,
+  gitignore: ['.idea/'],
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
